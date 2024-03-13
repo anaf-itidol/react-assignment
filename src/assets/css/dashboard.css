@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: rgb(28, 188, 164);
+    background: linear-gradient(
+      90deg,
+      rgba(28, 188, 164, 1) 0%,
+      rgba(25, 91, 102, 1) 50%,
+      rgba(15, 53, 102, 1) 100%
+    );
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
